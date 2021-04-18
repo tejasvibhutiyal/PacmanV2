@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+            #container {
+                display: grid;
+                grid-template-columns: 100px 100px  100px 100px 100px 100px 100px 100px;
+                grid-template-rows: 100px 100px;
+            }
+            #container div{
+                height:100px;
+                width:100px;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <head><title>PacMan Game V2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>canvas {
+        border:1px solid #d3d3d3;
+        background-color: #f1f1f1;
+    }</style>
+    </head>
+    <body style="background-color: black;">
+        
+        <div class="scoreBoard">
+            <span class="score">Score : 0</span>
+            <span class="lives">Lives : 5</span>
+        </div>
+            <div class="grid"></div>
+            <button class="btn">Start Game</button>
+            <!--<button class="arrowUp">UP</button>
+           <p style="display: flex;
+           justify-content: center;
+           align-items: center;"> <button class="arrowRight">RIGHT</button><button class="arrowLeft">LEFT</button></p>
+            <button class="arrowDown">DOWN</button>-->
+            <div style="text-align:center;width:600px;">
+                <button class="arrowUp">UP</button><br><br>
+                <button class="arrowLeft">LEFT</button>
+                <button class="arrowRight">RIGHT</button><br><br>
+                <button class="arrowDown">DOWN</button>
+              </div>
+           
+        <div class="ghost">
+            <div class="eyes eyeleft"></div>
+            <div class="eyes eyeright"></div>
+        </div>
+     
+     
+        <div class="pacman">
+            <div class="eye"></div>
+            <div class="mouth"></div>
+        </div>
+        
+
+        <script src="app.js"></script>
+    </body>
+</html>
