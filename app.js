@@ -359,7 +359,10 @@ function move(){
         }
        if(!player.pause){
        myBoard[player.pos].append(g.pacman);
-       player.play= requestAnimationFrame(move);}//in order to create the animation we have to call the animation frame all the time
+       setTimeout(function(){
+        player.play= requestAnimationFrame(move);
+       },200); 
+    }//in order to create the animation we have to call the animation frame all the time
 }}
 
 

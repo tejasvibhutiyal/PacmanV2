@@ -145,4 +145,30 @@
     margin: auto;
 }
 
+.arrowUp{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    background-size: auto;
+}
 
+.arrowDown{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    background-size: auto;
+}
+
+.arrowLeft{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    background-size: auto;
+}
+
+.arrowRight{
+    background-color: white;
+    height:  50px;
+    width: 50px;
+    background-size: auto;
+}
